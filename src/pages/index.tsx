@@ -20,12 +20,12 @@ export default function Home() {
             Happy to see you here!  
           </span>
         </div>
-        <div className='bg-first-background h-1/2 flex justify-between'>
+        <div className='bg-first-background h-3/5 flex justify-between'>
           <div className='flex flex-col gap-4 items-center justify-center pl-[10%]'>
             <span className='text-6xl text-white'>Cinépolis</span>
             <span className='text-4xl text-white'>UX Design / UI Design</span>
           </div>
-          <div className='flex relative pl-[10%]'>
+          <div className='flex relative pr-[5%]'>
             <Image width={400} alt='cellphone' src={rect7} />
             {/* <Image width={300} height={300} alt='cellphone' src={rect2} /> */}
             {/* <Image width={300} height={300} alt='cellphone' src={rect4} /> */}
